@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Prescribio</string>
+    <string name="prescription_writing">Prescription writing</string>
+    <string name="patient_name">Hi Arun</string>
+</resources>
