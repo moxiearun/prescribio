@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import androidx.activity.viewModels
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.moxietech.prescribio.BaseActivity
 import com.moxietech.prescribio.R
 import com.moxietech.prescribio.prescriptionwriter.PrescriptionWritingActivity
@@ -22,10 +23,10 @@ class HomeActivity : BaseActivity() {
     }
 
     private fun setupUI() {
-        findViewById<Button>(R.id.add_patient_fab).setOnClickListener {
-            homeViewModel.navigateToPrescriptionWriter()
+        findViewById<FloatingActionButton>(R.id.add_patient_fab).setOnClickListener {
             navigateToPrescriptionWriter()
         }
+        homeViewModel.loadPatientList()
     }
 
     private fun navigateToPrescriptionWriter() {

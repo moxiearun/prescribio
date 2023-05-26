@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "512156391690",
+    "project_id": "prescribio",
+    "storage_bucket": "prescribio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512156391690:android:839a1cfbe0875a141c42f3",
+        "android_client_info": {
+          "package_name": "com.moxietech.prescribio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi2W9dH0wdAkTQb3GnqGHxDWsPcfbTgvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
